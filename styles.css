@@ -1,0 +1,155 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* Navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+#features {
+  text-align: center;
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  padding: 100px 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 50px 0 75px;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.testimonial-picture {
+  padding-top: 10px;
+  width: 30%;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 25px;
+}
+
+.carousel-item {
+  padding: 0 15% 0;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.card {
+  padding: 3% 2%;
+}
+
+/* Media Quary */
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.soc {
+  margin: 10px;
+}
